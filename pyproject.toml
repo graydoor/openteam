@@ -24,3 +24,6 @@ dev = [
 pythonpath = ["."]
 testpaths = ["tests"]
 addopts = "-q"
+
+[tool.setuptools.packages.find]
+include = ["agent_api", "agents", "core", "orchestrator", "router", "tracing"]
